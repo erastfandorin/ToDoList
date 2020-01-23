@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ToDoList</title>
+  </head>
+
+  <body>
+    <main>
+      <h1 class="headline">ToDoList</h1>
+      <div class="notesBox">
+        <ul class="notesList"></ul>
+        <button class="openFormAddNote">+ Add Note</button>
+        <form class="formAddNote">
+          <div class="borderBox">
+            <input
+              class="formAddNoteHeader"
+              type="text"
+              placeholder="Header"
+              required
+            />
+            <textarea
+              class="formAddNoteDescription"
+              type="text"
+              placeholder="Description"
+              rows="5"
+            ></textarea>
+          </div>
+          <button class="addNoteToNotesList">Add Note</button>
+          <button class="closeFormAddNote">Close</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
