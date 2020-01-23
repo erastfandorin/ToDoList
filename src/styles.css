@@ -54,7 +54,7 @@ body {
 .formAddNote {
   display: none;
   flex-wrap: wrap;
-  width: 15%;
+  width: 150px;
 }
 
 .formAddNoteVisible {
